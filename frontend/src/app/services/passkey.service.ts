@@ -182,7 +182,10 @@ export type PasskeySupport = {
     </mat-dialog-actions>
   `,
   styles: `
-    
+    :host {
+      display: block;
+      background: var(--mat-sys-surface-container-high);
+    }
   `,
 })
 class PasskeyDialog implements OnInit {
